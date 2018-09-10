@@ -32,7 +32,7 @@ ul li span {
   width: 250px;
   border-left: 2px dotted rgba(7, 7, 7, 0.609);
   padding: 10px;
-  margin-top: -30% !important;
+  margin-top: -24% !important;
   margin-left: 63% !important;
 }
 
@@ -111,6 +111,13 @@ ul li span {
   font-weight: bold;
   font-size: 130%;
   color: #157ab1;
+}
+
+.container-card h1{
+  font-weight: bold;
+  font-size: 140%;
+  color: #157ab1;
+  max-width: 350px;
 }
 
 .container-card a {

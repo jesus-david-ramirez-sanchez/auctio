@@ -79,7 +79,7 @@ class Filtro extends Component {
 
     render() {
         return (
-            <div className="col-md-3 col-xs-12 filtro">
+            <div className="filtro col-md-3 col-xs-12">
                 <div className="shadow card card-header cursor">
                     <h5 data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"> <strong>Filtro</strong></h5>
                 </div>

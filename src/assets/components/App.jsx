@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Header from './header.jsx';
 import Hotels from './hotels/hotels';
 import Filtro from './filtro/filtro';
 
@@ -11,16 +10,17 @@ class App extends Component {
 
   render() {
     return (
-      <div className="container-fluid">
-        <Header/>
-        <div className="row container-fluid">
-          
-          <Filtro/>
+        <div>
+          <nav className="navbar navbar-a">
+          </nav>
+          <div className="row container-fluid">
+            
+            <Filtro/>
 
-          <Hotels />
+            <Hotels />
 
+          </div>
         </div>
-      </div>
     );
   }
 }

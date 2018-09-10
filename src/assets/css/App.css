@@ -32,7 +32,7 @@ ul li span {
   width: 250px;
   border-left: 2px dotted rgba(7, 7, 7, 0.609);
   padding: 10px;
-  margin-top: -10% !important;
+  margin-top: -30% !important;
   margin-left: 63% !important;
 }
 
@@ -67,23 +67,9 @@ ul li span {
 .navbar-a {
   background: #e06d09;
   height: 60px;
-  width: 111.1%;
-  margin-left: -10%;
 }
 
-@media screen and (max-width: 800px) {
-  img {
-    width: 100%;
-    height: 100%;
-  }
-  .puntos {
-    border-left: 0px solid transparent;
-    border-top: 2px dotted rgba(7, 7, 7, 0.609);
-    margin-top: 4% !important;
-    margin-left: 0% !important;
-  }
 
-}
 
 .btn-secondary {
   border-radius: 0 !important;
@@ -115,6 +101,7 @@ ul li span {
 }
 
 .container-card {
+  max-height: 100% !important;
   border-radius: 0 !important;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -147,5 +134,26 @@ ul li span {
 .container-card .card-header {
   background: #fff;
   margin-bottom: -18px !important;
+}
+
+@media screen and (max-width: 800px) {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  .puntos {
+    border-left: 0px solid transparent;
+    border-top: 2px dotted rgba(7, 7, 7, 0.609);
+    margin-top: 4% !important;
+    margin-left: -1% !important;
+  }
+
+  .container-card{
+    width: 105% !important;
+  }
+
+  .filtro{
+    margin-left: 5%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

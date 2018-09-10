@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f4f4f4 !important;
+}
+
+input[type=text] {
+  border-radius: 0 !important;
+}
+
+img {
+  max-width: 350px;
+  max-height: 250px;
+}
+
+ul li {
+  text-decoration: none !important;
+}
+
+ul li span {
+  font-size: 15px !important;
+}
+
+.filtro{
+  margin-top: 30px;
+}
+
+.puntos {
+  width: 250px;
+  border-left: 2px dotted rgba(7, 7, 7, 0.609);
+  padding: 10px;
+  margin-top: -10% !important;
+  margin-left: 63% !important;
+}
+
+.puntos p {
+  text-align: center;
+}
+
+.puntos h4 {
+  text-align: center;
+  color: #e06d09;
+  font-weight: bold;
+}
+
+.icons img {
+  color: #444444 !important;
+  padding-right: 0.5rem;
+  padding-top: 1rem;
+  font-size: 18px;
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.star {
+  padding-left: 6px;
+  color: #fdba12 !important;
+}
+
+.stars {
+  margin-left: -20px !important;
+}
+
+.navbar-a {
+  background: #e06d09;
+  height: 60px;
+  width: 111.1%;
+  margin-left: -10%;
+}
+
+@media screen and (max-width: 800px) {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  .puntos {
+    border-left: 0px solid transparent;
+    border-top: 2px dotted rgba(7, 7, 7, 0.609);
+    margin-top: 4% !important;
+    margin-left: 0% !important;
+  }
+
+}
+
+.btn-secondary {
+  border-radius: 0 !important;
+  margin-left: 10px;
+  background: #002c77 !important;
+}
+
+.btn-secondary:hover {
+  background: #054bc5 !important;
+  border: 1px solid #000000;
+}
+
+.btn-hotel {
+  text-align: center !important;
+  width: 170px;
+  margin-left: 13% !important;
+  font-size: 20px !important;
+  color: white !important;
+  background: #002c77 !important;
+}
+
+.btn-hotel:hover {
+  background: #054bc5 !important;
+  border: 1px solid #000000;
+}
+
+.card {
+  border-radius: 0 !important;
+}
+
+.container-card {
+  border-radius: 0 !important;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.container-card h3 {
+  font-weight: bold;
+  font-size: 130%;
+  color: #157ab1;
+}
+
+.container-card a {
+  font-size: 17px;
+  -webkit-text-decoration-style: none !important;
+  text-decoration-style: none !important;
+  text-align: left;
+  color: #157ab1;
+}
+
+.container-card a:hover {
+  color: #002c77;
+}
+
+.container-card h5 {
+  text-align: left;
+  color: #157ab1;
+  cursor: pointer;
+}
+
+.container-card .card-header {
+  background: #fff;
+  margin-bottom: -18px !important;
+}
+/*# sourceMappingURL=style.css.map */
